@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Junhwan Heo"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "30살에 코딩을 시작한, 느리지만 확실하게 코딩하고 싶은 개발자"
+  bio              : "30살에 시작한 코딩, 느리지만 확실하게 하고싶은 개발자"
   location         : "Seoul"
   email            : "slowkoding@gmail.com"
   links:
