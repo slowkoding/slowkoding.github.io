@@ -9,19 +9,30 @@ main:
 
 
 docs:
-  - title: "대목차"
+  - title: "About"
     children:
-      - title: "category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
-  - title: "대목차"
+      - title: "Resume"
+        url: /Resume/
+      - title: "Portfolio"
+        url: /Portfolio/
+  - title: "Programming"
     children:
-      - title: "category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
-
+      - title: "java"
+        url: /java/    
+      - title: "html"
+        url: /html/
+      - title: "css"
+        url: /css/
+      - title: "javascript"
+        url: /javascript/                
+      - title: "git"
+        url: /git/
+      - title: "visual studio"
+        url: /visual studio/
+  - title: "etc"
+    children:
+      - title: "life"
+        url: /life/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
