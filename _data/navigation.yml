@@ -7,7 +7,6 @@ main:
   - title: "Search"
     url: /search/
 
-
 docs:
   - title: "About"
     children:
@@ -29,10 +28,13 @@ docs:
         url: /git/
       - title: "visual studio"
         url: /visual studio/
+      - title: "blog"
+        url: /blog/
   - title: "etc"
     children:
       - title: "life"
         url: /life/
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
