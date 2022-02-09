@@ -22,7 +22,7 @@ sidebar:
 
 ### 1. Java의 동작 방식
 
-&nbsp;&nbsp; 프로그래밍 언어에는 [저급(Low-level)언어](https://ko.wikipedia.org/wiki/%EC%A0%80%EA%B8%89_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)인 [기계어](https://ko.wikipedia.org/wiki/%EA%B8%B0%EA%B3%84%EC%96%B4#:~:text=%EA%B8%B0%EA%B3%84%EC%96%B4(%E6%A9%9F%E6%A2%B0%E8%AA%9E)%EB%8A%94%20CPU,1%EB%A1%9C%20%EC%93%B0%EC%9D%BC%20%EC%88%98%20%EC%9E%88%EB%8B%A4.&text=%EA%B8%B0%EA%B3%84%EC%96%B4%EB%8A%94%20CPU%EC%9D%98%20%EC%A2%85%EB%A5%98,%EB%8B%A4%EB%A5%B8%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EA%B0%96%EA%B2%8C%20%EB%90%9C%EB%8B%A4.)와 [어셈블리어](https://ko.wikipedia.org/wiki/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC%EC%96%B4#:~:text=%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC%EC%96%B4(%EC%98%81%EC%96%B4%3A%20assembly%20language),%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98%20%EC%A0%80%EA%B8%89%20%EC%96%B8%EC%96%B4%EC%9D%B4%EB%8B%A4.)(Assembly Language), 그리고 C, C++, Java와 같은 [고급(High-level)언어]https://ko.wikipedia.org/wiki/%EA%B3%A0%EA%B8%89_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4가 있다. 그리고 고급 언어는 소스 프로그램을 한 줄 씩 기계어로 해석하여 바로 실행을 하는 [인터프리터](https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0) 방식이 있고, [컴파일러](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC)를 사용하여 고급 언어로 작성된 프로그램을 기계어로 번역한 후 실행하는 방식이 있다. 
+&nbsp;&nbsp; 프로그래밍 언어에는 [저급(Low-level)언어](https://ko.wikipedia.org/wiki/%EC%A0%80%EA%B8%89_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)인 [기계어](https://ko.wikipedia.org/wiki/%EA%B8%B0%EA%B3%84%EC%96%B4#:~:text=%EA%B8%B0%EA%B3%84%EC%96%B4(%E6%A9%9F%E6%A2%B0%E8%AA%9E)%EB%8A%94%20CPU,1%EB%A1%9C%20%EC%93%B0%EC%9D%BC%20%EC%88%98%20%EC%9E%88%EB%8B%A4.&text=%EA%B8%B0%EA%B3%84%EC%96%B4%EB%8A%94%20CPU%EC%9D%98%20%EC%A2%85%EB%A5%98,%EB%8B%A4%EB%A5%B8%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EA%B0%96%EA%B2%8C%20%EB%90%9C%EB%8B%A4.)와 [어셈블리어](https://ko.wikipedia.org/wiki/%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC%EC%96%B4#:~:text=%EC%96%B4%EC%85%88%EB%B8%94%EB%A6%AC%EC%96%B4(%EC%98%81%EC%96%B4%3A%20assembly%20language),%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%98%20%EC%A0%80%EA%B8%89%20%EC%96%B8%EC%96%B4%EC%9D%B4%EB%8B%A4.)(Assembly Language), 그리고 C, C++, Java와 같은 [고급(High-level)언어](https://ko.wikipedia.org/wiki/%EA%B3%A0%EA%B8%89_%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D_%EC%96%B8%EC%96%B4)가 있다. 그리고 고급 언어는 소스 프로그램을 한 줄 씩 기계어로 해석하여 바로 실행을 하는 [인터프리터](https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%ED%94%84%EB%A6%AC%ED%84%B0) 방식이 있고, [컴파일러](https://ko.wikipedia.org/wiki/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC)를 사용하여 고급 언어로 작성된 프로그램을 기계어로 번역한 후 실행하는 방식이 있다. 
 &nbsp;&nbsp;하지만 Java는 두 방식 모두를 사용한다. 원래 자바는 인터프리터 방식만 사용했었다고 한다. 하지만 성능의 문제때문에 JIT Compiler를 추가하여 둘 모두를 병행하여 사용하게 되었다.
 ![자바의 동작방식](https://user-images.githubusercontent.com/41244373/110245609-5b1faa80-7fa7-11eb-95e0-af63706f94d2.png)
 
@@ -32,11 +32,13 @@ sidebar:
 #### 1. JDK
 
 &nbsp;&nbsp;JDK란 [Java Development Kit(자바 개발 키트)](https://namu.wiki/w/JDK)의 줄임말로, Java환경에서 돌아가는 프로그램을 개발하는 데 필요한 툴틀을 모아놓은 소프트웨어 패키지이다. JRE(Java Runtime Environment)와 Java 바이트코드 컴파일러, Java 디버거 등을 포함하는 개발 도구들로 이루어져 있다. IBM에서 자체적으로 변형한 IBM JDK와 오픈 소스 버전인 OpenJDK도 있다.
+
 ![JDK](http://wikidocs.net/images/page/257/jdk.jpg)
 
 #### 2. JRE
 
 &nbsp;&nbsp;JRE란 Java Runtime Environment(자바 실행 환경)의 줄임말로, JVM 이 자바 프로그램을 동작시킬 때 필요한 라이브러리 파일들과 기타 파일들을 가지고 있다. JRE는 JVM의 실행환경을 구현했다고 할 수 있다. 자바로 만들어진 프로그램을 실행하기 위해서는 JRE를 설치해야하는데, 보통 프로그램에 JRE를 포함하여 배포하기 때문에 우리가 평소에 JRE를 따로 설치해야하는 상황이 오지 않는다고 한다.
+
 ![JRE](http://wikidocs.net/images/page/257/jre.jpg)
 
 #### 3. JVM
