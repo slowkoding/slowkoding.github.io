@@ -2,7 +2,7 @@
 layout: single
 title: "[Java]JDK,JRM, 그리고 JVM"
 categories: java
-tags: [java, jdk, jrm, jvm, ide, 2022-02-09]
+tags: [java, jdk, jrm, jvm, ide, 2022/02/09]
 toc: true
 author_profile: true
 read_time: true
