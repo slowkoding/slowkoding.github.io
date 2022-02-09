@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "깃허브 블로그를 시작한 이유"
-categories: life
-tags: [life, blog]
+categories: blog
+tags: [blog, life]
 toc: true
 author_profile: true
 read_time: true
