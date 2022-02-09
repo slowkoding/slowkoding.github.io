@@ -10,26 +10,24 @@ main:
 docs:
   - title: "About"
     children:
-      - title: "Resume"
-        url: /Resume/
-      - title: "Portfolio"
-        url: /Portfolio/
+      - title: "resume"
+        url: /categories/resume/    
+      - title: "portfolio"
+        url: /categories/portfolio/    
   - title: "Programming"
     children:
       - title: "java"
-        url: /java/    
+        url: /categories/java/    
       - title: "html"
-        url: /html/
+        url: /categories/html/    
       - title: "css"
-        url: /css/
+        url: /categories/css/    
       - title: "javascript"
-        url: /javascript/                
+        url: /categories/javascript/                  
       - title: "git"
-        url: /git/
-      - title: "visual studio"
-        url: /visual studio/
+        url: /categories/git/    
       - title: "blog"
-        url: /blog/
+        url: /categories/blog/
   - title: "etc"
     children:
       - title: "life"
