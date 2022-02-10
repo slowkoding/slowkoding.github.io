@@ -16,8 +16,8 @@ docs:
         url: /categories/portfolio/    
   - title: "Programming"
     children:
-      - title: "java"
-        url: /categories/java/    
+      - title: "python"
+        url: /categories/python/    
       - title: "html"
         url: /categories/html/    
       - title: "css"
