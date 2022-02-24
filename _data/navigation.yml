@@ -32,6 +32,8 @@ docs:
     children:
       - title: "life"
         url: /life/
+      - title: "자격증"
+        url: /자격증/
 
 
   # - title: "About"
