@@ -26,6 +26,8 @@ docs:
         url: /categories/javascript/                  
       - title: "git"
         url: /categories/git/    
+      - title: "algorithm"
+        url: /categories/algorithm/
       - title: "blog"
         url: /categories/blog/
   - title: "etc"
