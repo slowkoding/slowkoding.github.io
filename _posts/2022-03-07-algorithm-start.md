@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Python] 알고리즘 공부 시작(Udemy, LeetCode, programmars)"
+title: "[Algorithm] 알고리즘 공부 시작(Udemy, LeetCode, programmars)"
 categories: algorithm
 tags: [python, coding, algorithm, dataStructure, 2022/03/07]
 toc: true
