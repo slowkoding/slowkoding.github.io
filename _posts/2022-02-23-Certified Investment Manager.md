@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "제 31회 투자자산운용사 합격 후기(공부 방법, 기간 등) "
-categories: 자격증
+categories: certificate
 tags: [투자자산운용사, 2022/02/23]
 toc: true
 author_profile: true
