@@ -13,7 +13,13 @@ docs:
       - title: "resume"
         url: /categories/resume/    
       - title: "portfolio"
-        url: /categories/portfolio/    
+        url: /categories/portfolio/   
+  - title: "Project"
+    children:
+      - title: "Side Project"
+        url: /categories/sideProject/    
+      - title: "Toy Project"
+        url: /categories/Toy Project/  
   - title: "Programming"
     children:
       - title: "python"
