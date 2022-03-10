@@ -19,7 +19,7 @@ docs:
       - title: "Side Project"
         url: /categories/sideProject/    
       - title: "Toy Project"
-        url: /categories/Toy Project/  
+        url: /categories/toyProject/  
   - title: "Programming"
     children:
       - title: "python"
