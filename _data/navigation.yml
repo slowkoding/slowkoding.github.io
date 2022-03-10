@@ -32,10 +32,8 @@ docs:
         url: /categories/blog/
   - title: "etc"
     children:
-      - title: "life"
-        url: /life/
-      - title: "자격증"
-        url: /자격증/
+      - title: "certificate"
+        url: /categories/certificate/
 
 
   # - title: "About"
