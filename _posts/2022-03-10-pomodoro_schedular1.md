@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Toy Project] Your Own Pomodoro 개발일지1"
+title: "[Toy Project] Your Own Pomodoro 개발일지1(프로젝트 동기, 기간, 목적)"
 categories: toyProject
 tags: [python, coding, pomodoro, 2022/03/10]
 toc: true
@@ -35,6 +35,7 @@ sidebar:
 - 내가 실사용 할 수 있는 포모도로 윈도우 전용앱 개발(프로그램 운영체제)
 - Microsoft Store에 런칭(아직 앱 패키징도 혼자 해본적 없지만..)
 - 앱 개발과정을 통해 배운내용 복습 및 확장
+- 여태까지 깃허브 잔디심기를 블로그 글쓰기로만 했는데, 실질적인 개발을 통한 잔디심기 및 깃허브 기능들 익숙해지기
 
 ### 4. 프로젝트 기간
 
