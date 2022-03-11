@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Toy Project] Your Own Pomodoro 개발일지1(프로젝트 동기, 기간, 목적)"
-categories: toyProject
+categories: toy project
 tags: [python, coding, pomodoro, 2022/03/10]
 toc: true
 toc_sticky: true
