@@ -1,9 +1,9 @@
 ---
-title: "Toy Project"
+title: "toy project"
 layout: category
-permalink: /categories/toyProject/
+permalink: /categories/toy_project/
 author_profile: true
-taxonomy: "toyProejct"
+taxonomy: "toy_project"
 sidebar:
   nav: "docs"
 ---
