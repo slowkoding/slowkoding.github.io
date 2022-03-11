@@ -1,9 +1,9 @@
 ---
-title: "Side Project"
+title: "side project"
 layout: category
-permalink: /categories/sideProject/
+permalink: /categories/side_project/
 author_profile: true
-taxonomy: "sideProejct"
+taxonomy: "side_project"
 sidebar:
   nav: "docs"
 ---
