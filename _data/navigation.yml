@@ -16,10 +16,10 @@ docs:
         url: /categories/portfolio/   
   - title: "Project"
     children:
-      - title: "Side Project"
-        url: /categories/sideProject/    
-      - title: "Toy Project"
-        url: /categories/toyProject/  
+      - title: "side project"
+        url: /categories/side_project/    
+      - title: "toy project"
+        url: /categories/toy_project/  
   - title: "Programming"
     children:
       - title: "python"
