@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "토익 첫시험 및 졸업 후기(900점대, 공부 방법, 기간 등) "
+title: "[Certificate] 토익 첫시험 및 졸업 후기(900점대, 공부 방법, 기간 등)"
 categories: certificate
 tags: [toeic, english, 2022/02/23]
 toc: true
