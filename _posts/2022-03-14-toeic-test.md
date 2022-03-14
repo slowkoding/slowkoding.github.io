@@ -24,6 +24,13 @@ sidebar:
 
 ![toeic_score](https://user-images.githubusercontent.com/97603503/158099636-9852dee9-c8ca-4fd8-8fcd-968a8c285127.png)
 
+&nbsp;&nbsp;&nbsp;&nbsp;해커스에 [토익정답 실시간 확인](https://www.hackers.co.kr/?mod=fullservice_marking)가 있다는 것을 알고 있었어서 시험보고 약 20분정도 남아 답을 어느정도 외워온다음 가채점을 했었다. 
+
+<img src="https://user-images.githubusercontent.com/97603503/158136701-1b02377d-9cae-4596-b8b2-35ee8c6f0e6b.jpg" width=700>
+
+<img src="https://user-images.githubusercontent.com/97603503/158136887-15708beb-b35c-4f73-b721-92b65ec4b46a.png" width=600>
+
+&nbsp;&nbsp;&nbsp;&nbsp;위 두 사진은 가채점 결과인데, [해커스 점수환산기](https://www.hackers.co.kr/?c=s_toeic/toeic_board/101)에서 난이도 상-상 기준으로 점수를 보여주는 것 같다. 하지만 다른 분들 글들을 보면 난이도에 따라 다르지만 요새는 대부분 중-중으로 놓고 본 예측 점수랑 비슷하게 나오는 것 같다.
 
 ### 2. 시험 동기  
 
