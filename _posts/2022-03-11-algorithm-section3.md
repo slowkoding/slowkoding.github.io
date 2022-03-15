@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Algorithm] 알고리즘 Section 3:Big O - O(n), O(1), O(n^2) "
-categories: algorithm
-tags: [python, coding, algorithm, dataStructure, 2022/03/11]
+title: "[Algorithms] 알고리즘 Section 3:Big O - O(n), O(1), O(n^2) "
+categories: algorithms
+tags: [python, coding, algorithms, dataStructure, 2022/03/11]
 toc: true
 toc_sticky: true
 author_profile: true
