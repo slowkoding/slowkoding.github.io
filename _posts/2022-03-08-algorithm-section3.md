@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Algorithm] 알고리즘 연습문제(Recursion - Sum of Digits, Power, Greatest Common Divisor, Decimal To Binary)"
-categories: algorithm
-tags: [python, coding, algorithm, dataStructure, recursion, 2022/03/08]
+title: "[Algorithms] 알고리즘 연습문제(Recursion - Sum of Digits, Power, Greatest Common Divisor, Decimal To Binary)"
+categories: algorithms
+tags: [python, coding, algorithms, dataStructure, recursion, 2022/03/08]
 toc: true
 toc_sticky: true
 author_profile: true
