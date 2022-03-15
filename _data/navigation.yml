@@ -32,10 +32,14 @@ docs:
         url: /categories/javascript/                  
       - title: "git"
         url: /categories/git/    
-      - title: "algorithm"
-        url: /categories/algorithm/
       - title: "blog"
         url: /categories/blog/
+  - title: "Computer Science"
+    children:
+      - title: "general"
+        url: /categories/general/ 
+      - title: "algorithms"
+        url: /categories/algorithms/   
   - title: "etc"
     children:
       - title: "certificate"
