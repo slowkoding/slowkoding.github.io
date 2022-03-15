@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "[Algorithm] Udemy 알고리즘 강의(The Complete Data Structures and Algorithms Course in Python) 리뷰"
-categories: algorithm
-tags: [python, coding, algorithm, dataStructure, udemy, 2022/03/09]
+title: "[Algorithms] Udemy 알고리즘 강의(The Complete Data Structures and Algorithms Course in Python) 리뷰"
+categories: algorithms
+tags: [python, coding, algorithms, dataStructure, udemy, 2022/03/09]
 toc: true
 toc_sticky: true
 author_profile: true
