@@ -44,6 +44,8 @@ docs:
     children:
       - title: "certificate"
         url: /categories/certificate/
+      - title: "english"
+        url: /categories/english/
 
 
   # - title: "About"
