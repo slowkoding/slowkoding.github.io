@@ -1,32 +1,387 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for post in site.posts %}
-    <url>
-        <loc>{{ site.url }}{{ post.url }}</loc>
-        {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-        {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-        {% endif %}
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-        {% if post.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-        {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-        {% endif %}
 
-        {% if post.sitemap.priority == null %}
-        <priority>0.5</priority>
-        {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-        {% endif %}
+<url>
+  <loc>https://slowkoding.github.io/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/tags/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/search/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/english/santa-toeic/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day38/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day37/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day36/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/certificate/engineer-information-processing-test/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/page2/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/page3/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/page10/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day35/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day34/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day33/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day32/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day31/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day30/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day29/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day28/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day27/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day26/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day25/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day24/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day23/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day22/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day21/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day20/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day19/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day18/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day17/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day16/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day15/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day14/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day13/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day12/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day11/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day10/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day9/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day8/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day7/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day6/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day5/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day4/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day3/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day2/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/python/python-day1/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/certificate/toeic-test/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/certificate/Certified-Investment-Manager/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/algorithms/algorithm-section3/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/algorithms/udemy-algorithm-review/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/general/cs50-p0/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/general/cs-general-1/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/blog/The-reason-I-started-blog/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/algorithm/algorithm-start/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/git/git/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/portfolio/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/side_project/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/toy_project/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/python/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/html/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/css/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/javascript/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/git/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/blog/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/general/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/algorithms/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/certificate/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/categories/english/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/page4/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/page5/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/page9/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/page8/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/page6/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://slowkoding.github.io/page7/</loc>
+  <lastmod>2022-03-26T02:53:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
 
-    </url>
-    {% endfor %}
+
 </urlset>
