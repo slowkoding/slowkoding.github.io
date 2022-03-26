@@ -11,7 +11,7 @@ docs:
   - title: "About"
     children:
       - title: "resume"
-        url: /categories/resume/    
+        url: https://buttered-lark-498.notion.site/2c8c17548c5749a7a636e7dd9077f10c
       - title: "portfolio"
         url: /categories/portfolio/   
   - title: "Project"
