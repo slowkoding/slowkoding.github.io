@@ -1,3 +1,7 @@
+<div class="hit-counter">
+  <a href="https://hits.sh/slowkoding.github.io/"><img alt="Hits" src="https://hits.sh/slowkoding.github.io.svg?view=today-total&label=visitors&extraCount=56&color=F6DFEB&labelColor=E4BAD4"/></a>
+</div>
+
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
@@ -15,8 +19,6 @@
     {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endunless %}
-    
-    <a href="https://hits.sh/slowkoding.github.io/"><img alt="Hits" src="https://hits.sh/slowkoding.github.io.svg?view=today-total&extraCount=56&color=F6DFEB&labelColor=E4BAD4"/></a>
   </ul>
 </div>
 
