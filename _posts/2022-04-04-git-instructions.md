@@ -62,63 +62,119 @@ $ git init
 
 &nbsp;&nbsp;&nbsp;&nbsp;우선, 워킹 디렉토리의 모든 파일은 Tracked(관리대상) Untracked(관리대상 x)로 나누어진다. 그리고 Tracked file은 Unmodified, Modified, Staged 상태 세가지로 나누어진다. 이와 같은 상태는 git status 명령어를 통해 확인할 수 있다.  
   
-```
-1. Untracked
+-  Untracked
 Git의 추적 관리가 이루어지지 않는 상태.
-```
 
 ![Untracked](https://user-images.githubusercontent.com/97603503/161444627-b0c32141-ced4-4476-a6d7-a8d3a941cd33.png)
 
-```
-2. Tracked
+- Tracked(Staged)
 git add를 통해 staging area(commit을 진행하기 전 임시 저장된 상태)에 올릴 수 있으며, git이 파일의 상태를 추적 관리하기 시작한다.
-```
 
 ![Staged](https://user-images.githubusercontent.com/97603503/161444799-464ea037-6bfb-42e9-a2a7-0a0acf950698.png)
 
-```
-3. Modified
-git add를 한 후 파일을 수정하면 Modified 상태가 된다. 
+- Unmodified / Modified
+git add를 하면 파일은 Tracked, Unmodified 상태가 된다. 그 후 파일을 수정하면 Modified 상태가 된다. 
 그리고 git add를 통해 staging area에 있는 파일은 그 당시 파일을 복사한 것이기 때문에 한 파일이 아래의 사진과 같이 두가지 상태를 가질 수 있다.
+
+![Modified](https://user-images.githubusercontent.com/97603503/161445036-c91e571b-2958-485f-b565-99fbe7fc3af9.png)  
+
+### 4. git add  
+
+- 위에서 언급했듯이 아래처럼 파일을 staging area로 보낼 수 있다.
+  
+```
+$ git add "파일명"
 ```
 
-![Modified](https://user-images.githubusercontent.com/97603503/161445036-c91e571b-2958-485f-b565-99fbe7fc3af9.png)
-
-4. Modified
-수정한 파일을 아직 로컬 데이터베이스에 저장하지 않은 상태
-```
-
-- 제대로 설정이 되었는지는 아래처럼 확인할 수 있다.
+- 하지만 파일을 하나하나 add 하기 귀찮을 경우 아래의 명령어들을 통해 한번에 처리할 수 있다. 
 
 ```
-$ git config user.name
-"YOUR NAME"
-$ git config user.email
-"YOUR EMAIL"
-```
+// 프로젝트 폴더 전체 파일 추가
+$ git add - A
 
-- 만약 위의 설정을 삭제하고 싶으면 아래처럼 하면 된다.
+// 현재 폴더의 파일들 추가
+$ git add .
 
 ```
-$ git config --global --unset user.name
-$ git config --global --unset user.email
+
+- 만약 git add한 파일을 되돌리고 싶으면 아래의 명령어로 되돌릴 수 있다.
+
+```
+// 특정 파일 add 취소
+$ git reset HEAD "파일명"
+$ git restore --staged "파일명"
+
+// 전체 파일 
+$ git reset HEAD
+```  
+
+### 5. git commit 
+
+- commit은 현재까지의 작업을 .git 파일에 기록 및 저장하는 것으로, 아래의 명령어를 통해 파일을 commit로 보낼 수 있다.
+  
+```
+// 자세한 메시지와 함께 커밋, vim에서 메시지 작성
+$ git commit
+
+// add후 자세한 메시지와 함께 커밋, vim에서 메시지 작성
+$ git commit -a
+
+// 간단한 메시지와 함께 커밋
+$ git commit -m "message"
+
+// add후 간단한 메시지와 함께 커밋
+$ git commit -am "message"
+```  
+
+- 만약 커밋을 취소하고 싶으면 아래의 명령어로 되돌릴 수 있다.
+
+```
+// 커밋을 취소하고, staged 상태로 보존
+$ git reset --soft HEAD^
+
+// 커밋을 취소하고, unstaged 상태로 보존
+$ git reset HEAD^
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;위의 설정을 통해 Github에서 git 커밋의 이메일 정보를 사용해 Github의 사용자를 매칭하는 원리이다.
+### 6. git push 
 
+- 커밋을 통해 로컬에 코드 변경 이력을 남긴 후, 원격 저장소에 전송하기 위해 git push를 사용한다.
+  
+```
+// 처음 git push를 할 때
+$ git push "저장소명" "브랜치명"
 
+// 그 후
+$ git push
+```  
 
-git rm --cached <fileName>
+### 6. 에러  
+
+- 아래와 같은 에러가 뜰 경우 ```rm -f ./.git/index.lock``` 명령어를 통해 해결할 수 있다.
+
+```
+fatal: Unable to create 'repository/.git/index.lock': File exists. 
+If no other git process is currently running, this probably means a git process crashed in this repository earlier. 
+Make sure no other git process is running and remove the file manually to continue.
+```
+
+```
+fatal: Unable to create 'repository/.git/index.lock': File exists. 
+Another git process seems to be running in this repository, e.g.an editor opened by 'git commit'. 
+Please make sure all processes are terminated then try again. 
+If it still fails, a git process may have crashed in this repository earlier: 
+remove the file manually to continue.
+```  
 
 ## 3. 결론  
 
-&nbsp;&nbsp;&nbsp;&nbsp;이번 포스팅에서는 형상관리도구, 특히 Git과 Github를 중심으로 궁금한 점들을 알아보았다. 취업준비 과정과 취업 후에도 활발하게 사용할 가능성이 큰 앱인만큼, 궁금한점이 생기면 새로운 포스팅을 통해 견문을 넓혀가보려고 한다. 마지막으로 조금은 뿌듯한 내 잔디를 보면서 포스팅을 마친다.
+&nbsp;&nbsp;&nbsp;&nbsp;막연히 어려울 것 같던 명령어를 통해 git을 활용하는 법이 포스팅을 작성하면서 몇번 실습해보니 생각처럼 어렵지 않았다. 마지막으로 글 쓸 당시 잔디 상태를 남기며 글을 마친다.
 
-![github](https://user-images.githubusercontent.com/97603503/158716763-64397053-f50f-4226-95e2-83d96dd280a6.png)
+![github](https://user-images.githubusercontent.com/97603503/161447553-e0b8dde2-a8da-41ad-8562-6686084bb149.png)
 
 ## 4. 참고자료  
 
-Ⅰ. [깃허브-위키백과](https://ko.wikipedia.org/wiki/%EA%B9%83%ED%97%88%EB%B8%8C)  
+Ⅰ. [git 문서](https://git-scm.com/docs)  
 
 ---
 
