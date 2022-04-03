@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[Git] git 사용법?"
+title: "[Git] git 사용법(git init, status, add, commit, push)"
 categories: git
 tags: [git, 2022/04/04]
 toc: true
